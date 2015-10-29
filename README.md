@@ -9,13 +9,13 @@
 
 使用步骤：
 
-> 0. 将LeakCanary import 入自己的工程
+ 0. 将LeakCanary import 入自己的工程
 
-> 1. 添加依赖： 
+ 1. 添加依赖： 
 
 	```compile project(':leakcanary')```
 	
-> 2. 在Application中进行配置
+ 2. 在Application中进行配置
 	
 	```
 	public class ExampleApplication extends Application {
@@ -45,7 +45,7 @@
 
 	```
 	
-> 3. 在Activity中进行配置
+ 3. 在Activity中进行配置
 
 ```
 public class MainActivity extends AppCompatActivity {
@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
 
 ```
 
-> 4. 在AndroidMainfest.xml 中进行配置,添加如下代码
+ 4. 在AndroidMainfest.xml 中进行配置,添加如下代码
 
 ```
         <service
@@ -120,6 +120,4 @@ public class MainActivity extends AppCompatActivity {
 
 
 ```
-
-
 
